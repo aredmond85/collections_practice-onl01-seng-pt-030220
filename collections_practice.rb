@@ -8,4 +8,5 @@ end
 
 def sort_array_char_count (string)
   strings.sort
+
 end

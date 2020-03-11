@@ -32,7 +32,7 @@ def kesha_maker (array)
 end
 
 def find_a (array)
-  array.selects do |element|
+  array.select do |element|
     element.chr == "a"
   end
 end

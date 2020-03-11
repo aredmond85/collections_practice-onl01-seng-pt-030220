@@ -10,7 +10,7 @@ def sort_array_char_count (string)
   string.sort {|x,y| x.length <=> y.length}
 end
 
-def swap_elements(element)
+def swap_elements (element)
   element[1],element[2] = element[2], element[1]
   element
 end
@@ -23,3 +23,13 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker (array)
+  x = []
+   array.each do |y|
+    s = y.split("")
+    s[2] = "$"
+    x << s.join
+   end
+   x
+ end

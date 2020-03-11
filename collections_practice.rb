@@ -37,8 +37,12 @@ def find_a (array)
   end
 end
 
-def sum_array(array)
+def sum_array (array)
   array.inject do |total, number|
     total + number
   end
+end
+
+def add_s (array)
+  
 end
